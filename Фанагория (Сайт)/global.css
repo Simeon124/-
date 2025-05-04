@@ -1,0 +1,54 @@
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeInUp {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+
+@font-face {
+    font-family: Izhitsa;
+    src: url(fonts/3-font\(1\).ttf);
+}
+
+a
+{
+    font-family: Izhitsa;
+}
+
+p
+{
+    font-family: Izhitsa;
+}
+
+li
+{
+    font-family: Izhitsa;
+}
+
+h2
+{
+    align-content: center;
+    font-family: Izhitsa;
+}
+
+h1
+{
+    font-family: Izhitsa;
+}
+footer
+{
+    margin-top: auto 0;
+}
+
+.english
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

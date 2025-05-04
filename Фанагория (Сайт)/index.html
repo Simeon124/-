@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Фанагория</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body class="relative h-screen bg-black text-white overflow-hidden">
+
+  <!-- Background Image -->
+  <div class="absolute inset-0 z-0">
+    <img src="Pictures/castleTopView.png" alt="Fanagoria Background" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/45"></div>
+  </div>
+
+  <!-- Centered Content -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+    <!-- Game Title -->
+    <div class="mb-6 animate-fadeInUp delay-200">
+      <h1 class="title">Фанагория</h1>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="flex space-x-6 mb-12">
+      <a href="about.html" class="px-6 py-3 bg-black/70 border border-yellow-500 text-yellow-300 rounded hover:bg-yellow-500 hover:text-black transition duration-200 animate-fadeInUp delay-200">За Фанагория</a>
+      <a href="teaser.html" class="px-6 py-3 bg-black/70 border border-yellow-500 text-yellow-300 rounded hover:bg-yellow-500 hover:text-black transition duration-200 animate-fadeInUp delay-200">Тийзър</a>
+      <a href="pictures.html" class="px-6 py-3 bg-black/70 border border-yellow-500 text-yellow-300 rounded hover:bg-yellow-500 hover:text-black transition duration-200 animate-fadeInUp delay-200">Галерия</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-sm text-gray-400 absolute bottom-4">
+      © 2025 Фанагория. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>

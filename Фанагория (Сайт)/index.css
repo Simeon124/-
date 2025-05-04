@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Izhitsa;
+    src: url(fonts/3-font\(1\).ttf);
+}
+
+.title
+{
+    font-size: 13rem;
+    font-family: Izhitsa;
+}
