@@ -162,7 +162,7 @@ body {
   /* Large screens: laptops (1024px – 1279px) */
   @media (min-width: 1024px) and (max-width: 1279px) {
     .title {
-      font-size: 3rem;
+      font-size: 7rem;
     }
   
     .gallery img {
@@ -173,7 +173,7 @@ body {
   /* Extra-large screens: desktops (1280px and up) */
   @media (min-width: 1280px) {
     .title {
-      font-size: 3.5rem;
+      font-size: 7rem;
     }
   
     .gallery img {
