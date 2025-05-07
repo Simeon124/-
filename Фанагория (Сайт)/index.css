@@ -8,3 +8,65 @@
     font-size: 13rem;
     font-family: Izhitsa;
 }
+
+body {
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .title {
+    font-size: 6rem;
+  }
+  
+  @media (max-width: 640px) {
+    .title {
+      font-size: 9rem;
+    }
+  
+    .flex.space-x-6 {
+      flex-direction: column;
+    }
+  
+    .flex.space-x-6 a {
+      margin-bottom: 1rem;
+    }
+  
+    .px-6 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .py-3 {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  
+    footer {
+      font-size: 0.75rem;
+      text-align: center;
+      position: static;
+      margin-top: 2rem;
+    }
+  }
+  
+  @media (min-width: 1920px) {
+    .title {
+      font-size: 16rem;
+    }
+  
+    .px-6 {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  
+    .py-3 {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  
+    footer {
+      font-size: 1.2rem;
+    }
+  }
